@@ -34,7 +34,5 @@ def main():
     data = get_raw_data()
     avg_discharge_rates = get_avg_discharge_rates(data)
     for station in avg_discharge_rates:
-        print(station + ' ' +  str(avg_discharge_rates[station]))
-
-if __name__ == '__main__':
+        print(station + ' ' +  str(avg_discharge_rates[station]))if __name__ == '__main__':
     main()
