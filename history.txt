@@ -1,0 +1,80 @@
+    1  ipython notebook
+    2  git
+    3  echo world
+    4  pwd
+    5  ls
+    6  ls - la
+    7  ls - l
+    8  ls - a
+    9  la
+   10  ls
+   11  ls -F
+   12  help ls
+   13  help -- l
+   14  help -- ls
+   15  help -- l
+   16  ls
+   17  cd SWD
+   18  cd SWC
+   19  ..
+   20  cd ..
+   21  cd
+   22  cd SWC
+   23  cd
+   24  notepad.exe data.txt
+   25  notepad.exe data.txt
+   26  ls
+   27  ls -F
+   28  cd SWC/
+   29  ls
+   30  notepad.exe data.txt
+   31  copy data.txt data_copy.txt
+   32  cp data.txt data_copy.txt
+   33  ls
+   34  mv data.txt data_loganriver_2013.txt
+   35  ls
+   36  cd ..
+   37  mkdir backup
+   38  cd SWC/
+   39  ls
+   40  cp data_loganriver_2013.txt ../backup/backup_data_loganriver_2013.txt
+   41  cd..
+   42  cd ..
+   43  cd backup/
+   44  ls
+   45  cd ../SWC/
+   46  ls
+   47  clear
+   48  cat data_littlebearriver_2013.txt 
+   49  sort data_littlebearriver_2013.txt 
+   50  --help
+   51  -- help
+   52  __ help
+   53   help n--
+   54  help --
+   55  sort -k2 data_littlebearriver_2013.txt 
+   56  sort -k 3 data_littlebearriver_2013.txt 
+   57  sort -k 3 data_littlebearriver_2013.txt > sorted_rates.txt
+   58  ls
+   59  cat sorted_rates.txt 
+   60  tail -1 sorted_rates.txt 
+   61  head -1 sorted_rates.txt 
+   62  -- help
+   63  --help
+   64  sort -k 3 data_littlebearriver_2013.txt | head -1
+   65  sort -k 3 data_littlebearriver_2013.txt | head -1 | tail -1
+   66  sort -k 3 data_littlebearriver_2013.txt | head -1 | tail - 1
+   67  sort -k 3 data_littlebearriver_2013.txt | head -1 | tail -1
+   68  sort -k 3 data_littlebearriver_2013.txt | head -1 | tail
+   69  ls
+   70  pyhton avg_discharge_rate.py data_littlebearriver_2013.txt 
+   71  python avg_discharge_rate.py data_littlebearriver_2013.txt 
+   72  python avg_discharge_rate.py data_littlebearriver_2013.txt | sort -k 2 -n
+   73  python avg_discharge_rate.py data_littlebearriver_2013.txt | tail -1
+   74  python avg_discharge_rate.py data_littlebearriver_2013.txt | head
+   75  python avg_discharge_rate.py data_littlebearriver_2013.txt | sort -k 2 -n > sorted.txt
+   76  ls 
+   77  tail -1 sorted.txt 
+   78  cat avg_discharge_rate.py 
+   79  clear
+   80  history > history.txt
